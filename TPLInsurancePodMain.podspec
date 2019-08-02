@@ -27,7 +27,7 @@ s.source = { :git => "https://github.com/ahsanbawa/TPLInsurancePodMain.git",
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'SkyFloatingLabelTextField', '~> 3.0'
-s.dependency 'TrustKit', '1.6.0'
+s.dependency 'TrustKit', '~> 1.6.0'
 
 # 8
 s.source_files = "TPLInsurancePodMain/**/*.{swift}"
