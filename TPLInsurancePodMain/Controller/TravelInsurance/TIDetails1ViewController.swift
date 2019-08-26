@@ -10,11 +10,11 @@ import UIKit
 
 class TIDetails1ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
     
-    @IBOutlet weak var coveragePicker: UnderLineTextField!
-    @IBOutlet weak var travelTypePicker: UnderLineTextField!
-    @IBOutlet weak var travelStartDatePicker: UnderLineTextField!
-    @IBOutlet weak var travelEndDatePicker: UnderLineTextField!
-    @IBOutlet weak var destinationPicker: UnderLineTextField!
+    @IBOutlet weak var coveragePicker: UITextField!
+    @IBOutlet weak var travelTypePicker: UITextField!
+    @IBOutlet weak var travelStartDatePicker: UITextField!
+    @IBOutlet weak var travelEndDatePicker: UITextField!
+    @IBOutlet weak var destinationPicker: UITextField!
     var startDateFor: Date?
     @IBOutlet weak var studentLabel: UILabel!
     @IBOutlet weak var studentSwitch: UISwitch!
